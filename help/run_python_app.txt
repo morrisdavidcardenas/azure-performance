@@ -1,0 +1,19 @@
+Windows 10
+0. Install virtual environment of python
+pip install virtualenv
+1. Create venv
+python -m venv venv
+2. Activate the env source
+Go to 
+cd ./venv/Scripts
+source activate
+3. Go to path
+cd ../..
+4. Upgrade pip
+python -m pip install --upgrade pip
+* Wheel
+pip install wheel
+5. Install Requirements
+pip install -r requirements.txt
+6. run the app
+python application.py
