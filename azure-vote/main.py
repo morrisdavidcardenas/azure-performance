@@ -34,7 +34,7 @@ handler = AzureLogHandler(connection_string='InstrumentationKey=d6e2fe0a-0f87-45
 handler.setFormatter(logging.Formatter('%(traceId)s %(spanId)s %(message)s'))
 logger.addHandler(handler)
 # Logging custom Events 
-logger.addHandler(AzureEventHandler(connection_string='d6e2fe0a-0f87-45e9-901f-7ffacd0eeb42'))
+logger.addHandler(AzureEventHandler(connection_string='InstrumentationKey=d6e2fe0a-0f87-45e9-901f-7ffacd0eeb42'))
 # Set the logging level
 logger.setLevel(logging.INFO)
 
